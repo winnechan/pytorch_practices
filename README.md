@@ -10,3 +10,11 @@ PyTorch 1.0.0 or PyTorch 0.4.0
 2. single PC with multiple GPUs using DistributedDataParallel
 
 3. [specify different learning rates for different layers](https://github.com/winnechan/pytorch_practices/blob/master/specify_different_lr_for_different_layers.png)
+
+4. [load model trained on multi gpus using torch.save({"model": model.state_dict()}, "xxx") to save instance of DataParallel](https://github.com/winnechan/pytorch_practices/blob/master/loading_models_trained_on_multigpus.png):
+build a new OrderedDict with keys removing "module"
+
+5. [save model trained on multi gpus in order to load it without multi gpus](https://github.com/winnechan/pytorch_practices/blob/master/saveing_models_trained_on_multigpus.png):
+save the model without DataParallel wrap
+
+6. load model trained on multi gpus by wrapping it in DataParallel again

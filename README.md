@@ -1,4 +1,4 @@
-# effective_pytorch
+# pytorch practices
 notes of pytorch practices in experiments
 
 ### Requirements

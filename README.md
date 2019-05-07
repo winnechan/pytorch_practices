@@ -18,3 +18,5 @@ build a new OrderedDict with keys removing "module"
 save the model without DataParallel wrap
 
 6. load model trained on multi gpus by wrapping it in DataParallel again
+
+7. [word embedding tutorial](https://github.com/winnechan/pytorch_practices/blob/master/word_embeddings_tutorial.ipynb)

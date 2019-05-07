@@ -20,3 +20,5 @@ save the model without DataParallel wrap
 6. load model trained on multi gpus by wrapping it in DataParallel again
 
 7. [word embedding tutorial](https://github.com/winnechan/pytorch_practices/blob/master/word_embeddings_tutorial.ipynb)
+
+8. [sequence models tutorial](https://github.com/winnechan/pytorch_practices/blob/master/sequence_models_tutorial.ipynb)
